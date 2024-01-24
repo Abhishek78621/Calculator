@@ -1,0 +1,154 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+  .main-calculator {
+    width: 390px;
+  
+    background: #343435;
+    margin: 100px;
+    border-radius: 20px;
+    overflow: scroll(X);
+
+  }
+
+
+
+  .child {
+    display: flex;
+    padding: 5px 0px 0px 10px;
+    margin-top: 10px;
+
+
+  }
+
+  .first-123 {
+    margin: 8px;
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(200px, 1fr));
+  }
+
+  .second-fx {
+    margin: 8px;
+    display: none;
+    backface-visibility: hidden;
+  }
+
+  button {
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    width: 71px;
+    margin: 5px;
+    height: 50px;
+    box-shadow: 0px 2px 10px #444443;
+    border-radius: 10px;
+    transition: transform 2s ease 2s;
+    outline: none;
+    border: 2px solid #868A9D;
+
+
+  }
+
+  
+  input {
+    padding: 20px 20px;
+    width: 360px;
+    margin: 40px 10px 0px 15px;
+    background: #404040;
+    color: white;
+    text-align: right;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid #868A9D;
+    box-shadow: 0px 2px 10px #2E2834;
+  }
+
+  input::placeholder {
+    font-size: 30px;
+    padding-top: 30px;
+    color: white;
+    text-align: right;
+
+  }
+
+  .btn {
+
+    width: 170px;
+    height: 49px;
+    color: orchid;
+    display: flex;
+    margin-left: 114px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+    border-radius: 30px;
+    background: #343435;
+    font-weight: bold;
+    outline: none;
+
+
+
+  }
+
+  button:hover {
+    background: #5C5555;
+    color: yellow;
+  }
+
+  .btn .num {
+    text-align: left;
+    background: #3F3F3F;
+    padding: 15px 25px;
+    border-radius: 30px 0px 0px 30px;
+    font-size: 20px;
+    box-shadow: 0px 2px 10px #2E2834;
+
+  }
+
+
+
+  .btn .num:hover {
+    background: lightgray;
+    color: red;
+
+  }
+
+  .btn .fx {
+    text-align: right;
+    background: #3F3F3F;
+    padding: 15px 25px;
+    border-radius: 0px 30px 30px 0px;
+    font-size: 20px;
+    box-shadow: 0px 2px 10px #2E2834;
+
+
+
+  }
+
+  .btn .fx:hover {
+    background: lightgrey;
+    color: red;
+
+  }
+
+  .operator {
+    color: green;
+  }
+
+  .equal {
+
+    background: mediumslateblue;
+  }
