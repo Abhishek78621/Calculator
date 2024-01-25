@@ -82,7 +82,7 @@
     });
     
       function pi() {
-      string = string * Math.PI();
+      string = string * Math.PI;
       input.value = string;
     }
     function del(){
