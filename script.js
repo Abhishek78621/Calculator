@@ -83,7 +83,7 @@
     
   
     function pi() {
-      string = Math.PI(string);
+      string = string*(Math.PI(string));
       input.value = string;
     }
     function del(){
