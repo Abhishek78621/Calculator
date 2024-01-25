@@ -81,9 +81,8 @@
       });
     });
     
-  
-    function pi() {
-      string = string*Math.PI;
+      function pi() {
+      string = string * Math.PI();
       input.value = string;
     }
     function del(){
